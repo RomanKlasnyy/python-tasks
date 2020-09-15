@@ -9,8 +9,8 @@ but he decided to check www.fakeregexr.com/
 or even http://veryfakeregexr.com/ OMG, it is no unsecure UwU
 '''
 
-result = re.findall(r'(w{3}.\w+\.\w+)', phrase)            # triggers on www. only
-# result_http = re.findall(r'(\w+:\/\/\w+\.\w+)', phrase)  # for http and https.
+result = re.findall(r'(w{3}.\w+\.\w+)', phrase)          # triggers on www. only
+result_http = re.findall(r'(\w+:\/\/\w+\.\w+)', phrase)  # for http and https.
+result.extend(result_http)
 
 print(result)
-# print(result_http)
