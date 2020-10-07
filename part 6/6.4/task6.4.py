@@ -51,9 +51,9 @@ def get_dir_info(dir_path):
 
 
 get_dir_info(r'C:\Users\(username)\Desktop\Learning\Python basics\Homework\part 6\6.3')
-# copy.txt  	 Last Modified: 07 Oct 2020
-# result.txt	 Last Modified: 07 Oct 2020
-# task6.3.py	 Last Modified: 07 Oct 2020
+# copy.txt  	 Last Modified: 07 Oct 2020    Size: 333 bytes
+# result.txt	 Last Modified: 07 Oct 2020    Size: 333 bytes
+# task6.3.py	 Last Modified: 07 Oct 2020    Size: 325 bytes
 
 get_dir_info(r'C:\Users\(username)\Desktop\Learning\Lol\Kek\Cheburek')
 # Error. The directory path does not exist!
