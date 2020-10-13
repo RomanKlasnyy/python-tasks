@@ -79,13 +79,10 @@ workers = [Worker('James', 'Smith', (100, 2)),
            Worker('John', 'Doe', (500, 8)),
            Worker('Earl', 'Grey', (600, 6)),
            Worker('Michael', 'Hopkins', (1500, 4))]
-
 workers.sort(key=sort_by_mph)
-
 for worker in workers:
     print(f'{worker.full_name} earns ${worker.money_per_hour()} per hour')  # workers sort by mph
 
 students.extend(workers)
-
 for person in students:
     person.do_hobby()
